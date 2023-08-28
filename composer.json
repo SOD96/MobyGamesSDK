@@ -1,0 +1,26 @@
+{
+    "name": "sod96/moby-games",
+    "description": "A package dedicated to making access to the Moby Games API that little bit easier.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SOD96\\MobyGames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sean O'Donnell",
+            "email": "sean@streambit.tv"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}
